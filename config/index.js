@@ -1,7 +1,7 @@
 import path from 'path'
 
 const config = {
-  projectName: 'myApp',
+  projectName: 'template',
   date: '2022-4-14',
   designWidth: 750,
   deviceRatio: {

@@ -18,12 +18,21 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "resolveJsonModule": true,
-    "typeRoots": ["node_modules/@types"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "paths": {
-      "@/*": ["./src/*"],
-      "$project": ["./project.config.json"]
-    }
+      "@/*": [
+        "./src/*"
+      ],
+      "$project": [
+        "./project.config.json"
+      ],
+    },
   },
-  "include": ["./src", "global.d.ts"],
+  "include": [
+    "./src",
+    "global.d.ts"
+  ],
   "compileOnSave": false
 }
