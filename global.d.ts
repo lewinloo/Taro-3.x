@@ -22,3 +22,10 @@ declare namespace NodeJS {
     TARO_ENV: 'weapp' | 'swan' | 'alipay' | 'h5' | 'rn' | 'tt' | 'quickapp' | 'qq' | 'jd'
   }
 }
+
+interface IResponse<T> {
+  code: string | number;
+  data: T;
+  error: boolean;
+  message: string;
+}

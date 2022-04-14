@@ -10,14 +10,14 @@ interface IndexProps {
 function Index(props: IndexProps) {
   const { counter } = useStore();
   useEffect(() => {
-    console.log(counter.counter);
-  }, [counter.counter]);
+    console.log(counter.count);
+  }, [counter.count]);
   return (
     <View className='index'>
       <Button onClick={counter.increment}>+</Button>
       <Button onClick={counter.decrement}>-</Button>
       <Button onClick={counter.incrementAsync}>Add Async</Button>
-      <Text>{counter.counter}</Text>
+      <Text>{counter.count}</Text>
     </View>
   );
 }

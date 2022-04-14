@@ -1,0 +1,10 @@
+{
+    "gizwits": {
+        "appSecret": "xxxxxxx",
+        "appID": "xxxxxxx"
+    },
+    "cloudServceInfo": {
+        "openAPIInfo": "api.gizwits.com",
+        "aepInfo": "https://aep-app.gizwits.com"
+    }
+}

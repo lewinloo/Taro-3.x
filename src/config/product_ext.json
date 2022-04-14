@@ -1,0 +1,14 @@
+{
+  "product_list": [
+    {
+      "categoryId": 260,
+      "name": "xxxx",
+      "productKey": "xxxx",
+      "productSecret": "xxxx",
+      "powerAttr": "Mode",
+      "softAPSSIDPrefix": "XPG-GAgent-",
+      "icon": "https://developer.gizwits.com/api/media/categories/device_icon_fan%403x_1596196991010.png"
+    }
+  ],
+  "updated_at": 1550218809552
+}
